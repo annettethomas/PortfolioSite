@@ -8,7 +8,7 @@ b {
     text-shadow: 0px 1px 4px #404B80;
 }
 
-.preview { 
+.preview {
     padding: 4px 10px;
     text-align:center;
     background-color: #FC8D8D;
@@ -164,7 +164,7 @@ b {
     color: white;
     font-weight: bold;
     font-size: 50px;
-    
+
 }
 
 .pro-txt { color: white; }
@@ -212,7 +212,7 @@ b {
     font-family: mukta;
     font-weight: bold;
     color: #404B80;
-    text-align:center; 
+    text-align:center;
 }
 
 #skills h2 {
@@ -344,7 +344,7 @@ b {
     font-family: Mukta;
     color: #434040;
     background-color: rgba(154, 169, 251, 0.1);
-    
+
 }
 
 #contact p {
@@ -423,18 +423,18 @@ input {
     background-size: 55%;
     background-repeat: no-repeat;
     background-position-x: 100%;
-    
+
 }
 
 .project-hero {
     background-image: url('images/portfolio/june.png');
-    
+
 }
-.project-hero-2 { 
+.project-hero-2 {
     background-color: #404B80;
     background-position: center;
     background: linear-gradient( rgba(64, 75, 128, 0.6), rgba(64, 75, 128, 0.6) ), url('images/portfolio/beans%20(1).png');
-    
+
 }
 .project-hero-3 {
     background-image: url('images/portfolio/alice.png')
@@ -444,7 +444,7 @@ input {
     background-image: url('images/portfolio/bumpa.png');
 }
 .project-hero-5 {
-    background: 
+    background:
         linear-gradient(rgba(252, 141, 141, 0.4), rgba(252, 141, 141, 0.4)),  url('images/header/hey-lo-bg.png');
 }
 .project-hero-6 {
@@ -472,7 +472,7 @@ input {
     height: 500px;
 }
 
-#project h1 { 
+#project h1 {
     color: #404B80;
     font-family: Mukta;
     font-weight: bold;
@@ -490,8 +490,8 @@ input {
 
 .tools { height: 40px; }
 /*.details h1 { text-align:center;}*/
-.details { 
-    background-color: white; 
+.details {
+    background-color: white;
     border-radius: 10px;
 }
 .tool-box { display: flex; justify-content: center;}
@@ -503,46 +503,46 @@ input {
 /* MEDIA QUERIES */
 
 @media (min-width:300px) {
-    
+
 /*  HERO SECTION  */
     .logo {
         height: 50px; width: 72px;
     }
-    
+
     .headerz { width: 280px;}
-    
+
     #hero {
         height: 100vh;
     }
- 
+
     #hero h1 {
         text-align: center;
         font-size: 48px;
     }
-    
+
     #hero p {
         text-align:center;
         font-size: 1.em;
     }
-    
+
     .linkage {
         margin-top: 50px;
     }
-    
+
     .soc {
         background-color: #404B80;
         border: 1px solid #fff;
         color: 404B80;
         box-shadow: 0px 4px 4px #2A3360;
     }
-    
-    
-    
+
+
+
 /*  PORTFOLIO  */
     #skills h2 {
         text-align:center;
     }
-    
+
     .view-project {
         width: 97%;
     }
@@ -550,31 +550,31 @@ input {
     .me-pic {
         height: 270px;
     }
-    
+
     .pic-container {
         display:flex;
         justify-content: center;
     }
-    
+
     #about h1 {
         text-align: center;
         font-size: 65px;
     }
-    
+
     .about-content {
         font-size: 1em;
     }
-    
+
     .pic, .overlay {
         height: 210px;
         width: 310px;
     }
-    
+
     #about {
         background-color: rgba(64, 75, 128, 0.7);
         background-image: none;
     }
-    
+
 /*  CONTACT SECTION  */
     #contact h1 {
         font-size: 55px;
@@ -582,68 +582,74 @@ input {
     .contact-content {
         font-size: 1em;
     }
-    
-    
+
+
 /*    PROJECT SECTION */
-    .project-img { 
+    .project-img {
         height: 130px;
         margin-top: 10px;
     }
-    
+
     .june-img {
-        height: 110px;
+        width: 100%;
+        height: auto;
         margin-top: 10px;
     }
-    
+
     .hey-img {height: 500px;}
     .s2s-img {
         margin-top: 10px;
         height: 200px;
     }
-    
-    .project-hero, .project-hero-2, .project-hero-3, .project-hero-4, .project-hero-5, .project-hero-6, .project-hero-7, .project-hero-8, .project-hero-9, .project-hero-10 { 
+
+    .project-hero, .project-hero-2, .project-hero-3, .project-hero-4, .project-hero-5, .project-hero-6, .project-hero-7, .project-hero-8, .project-hero-9, .project-hero-10 {
         background-size: cover;
         background-position-x: 50%;
         background-position-y: 50%;
         display: flex;
         justify-content: center;
         align-items: center;}
-    
-    .project-txt { 
+
+    .project-txt {
         font-weight: bold;
         text-align:center;
     }
-    
+
     .j {
         width: 295px;
     }
-    
+
     .vid { width: 300px; height: 200px;}
 }
 @media (min-width: 370px){
     .view-project{
         width: 83%;
     }
-    
+
     .headerz { width: 340px;}
-    
+
     .project-img { height: 165px;}
-    
-    .june-img {height: 130px;}
-    
+
+    .june-img {
+        width: 100%;
+        height: auto;}
+
     .s2s-img { height: 230px; }
-    
+
     .j { width: 345px;}
     .vid { width: 350px; height: 250px;}
 }
 @media (min-width: 400px){
     .view-project { width: 73%;}
     .project-img { height: 190px;}
-    .june-img {height: 150px;}
+    .june-img {
+        width: 100%;
+        height: auto;
+    }
     .s2s-img { height: 260px; }
     .j { width: 390px;}
     .vid { width: 450px; height: 350px;}
-    
+
 }
 @media (min-width:700px) {
     #hero h1 {
@@ -652,39 +658,39 @@ input {
     #hero p {
         font-size: 1.19em;
     }
-    
+
     .logo {
         height: 60px; width: 85px;
     }
-    
+
     .skill-txt {
         font-size: 1em;
         text-align:center;
     }
     #skills h2 { text-align:left; }
-    
+
     .me-pic {
         height: 350px;
     }
-    
+
     .view-project {
         width: 82%;
     }
-    
+
     .project-img {
         height: 250px;
         margin-top: 30px;
     }
-    
+
     .s2s-img { height: 250px; }
-    
+
     .footer {
         height: 10vh;
         font-size: 1em;
     }
-    
+
     .project-txt { font-size: 4em;}
-    
+
     .j { width: 700px;}
     .vid { width: 650px; height: 450px;}
 }
@@ -695,7 +701,10 @@ input {
 
 @media (min-width: 700px){
     .vid { width: 370px; height: 290px;}
-    .june-img {height: 270px;}
+    .june-img {
+        width: 100%;
+        height: auto;
+    }
     .headerz { width: 400px;}
 }
 
@@ -704,72 +713,75 @@ input {
     #hero {
         height: 45vh;
     }
-    
+
     .soc {
         border: none;
         box-shadow: #C88C8C 0px 4px 4px;
     }
-    
+
     .me-pic {
         height: 400px;
     }
-    
+
     #about {
         height: auto;
         background: url('images/slant-bg(light).svg');
         background-size: cover;
     }
-    
+
     .pic-container {
         display:flex;
         align-items: center;
     }
-    
+
     .view-project { width: 91%;}
-    .project-img { 
+    .project-img {
         height: 220px;
         margin-top: 30px;
-    
+
     }
-    .june-img {height: 360px;}
+    .june-img {
+                width: 100%;
+        height: auto;
+    }
     .s2s-img { height: 320px; }
-    
+
     .footer { font-size: 1.2em;}
-    
+
     .j { width: 920px;}
-    
+
     .logo {
         height: 60px; width: 85px;
     }
-    
+
     .vid { width: 490px; height: 300px;}
-    
+
     .tools { height: 50px; }
 
 }
 @media (min-width: 1400px) {
-    
-    
+
+
     .nav-link { font-size: 1.5em;}
-    
+
     #hero h1 { font-size: 100px; }
     #hero p {
         font-size: 1.76em;
         text-align: left;
     }
-    
+
     .resume, .soc { font-size: 1.8em;}
-    
+
     .soc { padding: 15px 25px; }
-    
-    .pic, .overlay { 
+
+    .pic, .overlay {
         height: 270px;
         width: 370px;
     }
-    
+
     .view-project { width: 78%; font-size: 1.2em;}
     .s2s-img { height: 460px; }
-    
+
     #portfolio h1, #skills h1 { font-size: 60px;}
     .bar, .prog, .prog-txt { height: 60px;}
     .prog-txt { font-size: 1.3em;}
@@ -782,111 +794,115 @@ input {
     #about { height: 100vh;}
     #about h1 { font-size: 90px;}
     #about p { font-size: 1.3em;}
-    
+
     .me-pic { height: 500px;}
-    
+
     .soc-2 { font-size: 2.3em; }
-    
+
     #contact h1 { font-size: 80px;}
     #contact p { font-size: 1.2em;}
     .submit { font-size: 1.5em;}
     label { font-size: 1.2em;}
-    
+
     .project-img { height: 330px; }
-    .june-img {height: 530px;}
+    .june-img {        width: 100%;
+        height: auto;}
     .hey-img {height: 700px;}
-    
+
     .process { font-size: 1.3em;}
     .tools { height: 70px; }
-    
+
 }
 @media (min-width: 2000px) {
     .logo {
         height: 150px; width: 220px;
     }
-    
+
     .nav-link { font-size: 3em;}
-    
+
     #hero h1 { font-size: 140px;}
     #hero p { font-size: 2.6em;}
-    
-    .resume { 
+
+    .resume {
         font-size: 4em;
         padding: 25px 150px }
-    .soc { 
+    .soc {
         font-size: 2.9em;
         padding: 20px 30px;
     }
-    
+
     #portfolio h1 { font-size: 100px;}
-    .pic, .overlay { 
+    .pic, .overlay {
         height: 450px;
         width: 550px;
     }
     .portfolio-txt { font-size: 80px;}
-    .view-project { 
+    .view-project {
         font-size: 40px;
         width: 65%;
         height: 90px;
         bottom: -90px;
     }
-    
+
     #skills { height: 100vh; display:flex; align-items: center;}
     #skills h1 { font-size: 100px;}
     .bar, .prog, .prog-txt { height: 100px; }
     .prog-txt { font-size: 2.5em;}
     .skill-txt { font-size: 2.5em;}
     #skills h2 { font-size: 4.6em; text-align: left;}
-    
+
     .info { font-size: 2.5em; }
     .info h1 { font-size: 2em; }
-    
+
     #about h1 { font-size: 140px;}
     .me-pic { height: 800px; }
     .me-txt { font-size: 1.7em; }
     .soc-2 { font-size: 5em;}
-    
+
     #contact h1{ font-size: 9em;}
     #contact p { font-size: 2em;}
-    
+
     label { font-size: 2em;}
     .form-control { height: 200px;}
     #inputfield {
         height: 100px;
     }
     #textfield { height: 390px;}
-    
+
     .submit { font-size: 2.5em;}
-    
+
     .project-txt { font-size: 8em; }
-    
+
     .project-img { height: 570px;}
-    .june-img {height: 930px;}
+    .june-img {
+    width: 100%;
+        height: auto;
+    }
     .hey-img {height: 1300px;}
     .s2s-img { height: 860px; }
-    
+
     .project-desc, .process { font-size: 2.4em;}
     .project-desc h1, .process h1 { font-size: 1.8em;}
-    
+
     .details h1 { font-size: 4.9em;}
-    
+
     .tools { height: 150px;}
-    
+
     .footer {
         height: 15vh;
         font-size: 2.5em;
     }
-    .foot { 
+    .foot {
         font-size: 2.5em;
         color: white;
         letter-spacing: 17px;
         }
-    
+
     .foot:hover {
         color: #fbd8d8;
     }
-    
+
     .vid { width: 950px; height: 650px;}
-    
-    
+
+
 }
