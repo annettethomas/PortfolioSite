@@ -417,7 +417,7 @@ input {
     font-size: 1.1em;
 }
 
-.project-hero, .project-hero-2, .project-hero-3, .project-hero-4, .project-hero-5, .project-hero-6, .project-hero-7, .project-hero-8, .project-hero-9, .project-hero-10 {
+.project-hero, .project-hero-0, .project-hero-2, .project-hero-3, .project-hero-4, .project-hero-5, .project-hero-6, .project-hero-7, .project-hero-8, .project-hero-9, .project-hero-10 {
     height: 50vh;
     background-color: #FC8D8D;
     background-size: 55%;
@@ -427,7 +427,15 @@ input {
 }
 
 .project-hero {
-    background-image: url('images/portfolio/june.png');
+    background-color:#D4544D;
+/*    background-image: url('images/portfolio/june.png');*/
+
+}
+
+.project-hero-0 {
+    background-color: #00A4D4;
+    background-position: center;
+
 
 }
 .project-hero-2 {
@@ -602,7 +610,7 @@ input {
         height: 200px;
     }
 
-    .project-hero, .project-hero-2, .project-hero-3, .project-hero-4, .project-hero-5, .project-hero-6, .project-hero-7, .project-hero-8, .project-hero-9, .project-hero-10 {
+    .project-hero, .project-hero-0, .project-hero-2, .project-hero-3, .project-hero-4, .project-hero-5, .project-hero-6, .project-hero-7, .project-hero-8, .project-hero-9, .project-hero-10 {
         background-size: cover;
         background-position-x: 50%;
         background-position-y: 50%;
